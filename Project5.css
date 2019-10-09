@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+}
+div{
+    text-align: center;
+}
+td{
+    padding-top: 20pt;
+    padding-left: 110pt;
+    padding-bottom: 20pt;
+}
+*{
+    font-family: arial;
+}

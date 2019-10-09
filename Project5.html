@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Project 5</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="Project5.css" />
+    <script src="Project5.js"></script>
+</head>
+
+<body onLoad="main();">
+<div id="countriesList"></div>
+    <form>
+        <fieldset>
+            <legend><b>Controls</b></legend>
+            <table>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="colorChoice" id="black" checked="checked"/>Black</label> <br />
+                        <label><input type="radio" name="colorChoice" id="white"/>White</label> <br />
+                        <label><input type="radio" name="colorChoice" id="blue"/>Blue</label> <br />
+                    </td>
+                    <td>
+                        <label> Font:
+                            <select id="selectFont">
+                                <option value="arial" id="fontArial">Arial</option>
+                                <option value="times" id="fontTimes">Times New Roman</option>
+                                <option value="courier" id="fontCourier">Courier New</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td>
+                        <label><input type="text" id = "minimum" value="0"/> Minimum Length</label> <br />
+                        <label><input type="text" id = "maximum" value="20"/> Maximum Length</label> <br />
+                        <input type="button" id="lengthButton" value="update"/>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" id="choiceN"/>Exclude words with 'N'</label> <br />
+                        <label><input type="checkbox" id="choiceA"/>Exclude words with 'A'</label> <br />
+                        <label><input type="checkbox" id="choiceO"/>Exclude words with 'O'</label> <br />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
